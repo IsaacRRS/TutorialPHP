@@ -50,7 +50,7 @@
                 echo "Sua média foi {$media}</p>";
             } 
         } else {
-            echo "Preencha todos os campos";
+            echo "Preencha corretamente";
         }
     }
     ?>
