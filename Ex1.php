@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercício 2</title>
+    <title>MÉDIA</title>
 </head>
 <body>
     <header>
-        <h2>Exercício 2</h2>
+        <h2>MÉDIA</h2>
     </header>
-    <form action="Form.php" method="post">
+    <form action="Ex1.php" method="post">
 
         <label>Nome: </label><br>
         <input type="text" name="nome"><br>

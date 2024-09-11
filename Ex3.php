@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Verificador de Nome</title>
+    <title>Lista</title>
 </head>
 <body>
     <header>
-        <h2>Verificador de Nome</h2>
+        <h2>Lista</h2>
     </header>
     
     <form action="" method="post">
