@@ -9,7 +9,7 @@
     <header>
         <h2>Exercício 2</h2>
     </header>
-    <form action="Ex2.php" method="post">
+    <form action="Form.php" method="post">
 
         <label>Nome: </label><br>
         <input type="text" name="nome"><br>
