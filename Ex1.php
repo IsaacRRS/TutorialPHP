@@ -9,7 +9,7 @@
     <header>
         <h2>MÉDIA</h2>
     </header>
-    <form action="Ex1.php" method="post">
+    <form action="" method="post">
 
         <label>Nome: </label><br>
         <input type="text" name="nome"><br>
@@ -20,27 +20,40 @@
         <input type="submit" value="Enviar">
 
     </form><br>
-<?php
-    
+
+    <?php
+
+    function media($nota1, $nota2) {
+       
+        if (is_numeric($nota1) && is_numeric($nota2)) {
+            return ($nota1 + $nota2) / 2;
+        } else {
+            return null; 
+        }
+    }
+
+   
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        
+     
         $nome = isset($_POST["nome"]) ? $_POST["nome"] : '';
         $nota1 = isset($_POST["nota1"]) ? $_POST["nota1"] : '';
         $nota2 = isset($_POST["nota2"]) ? $_POST["nota2"] : '';
 
         if (!empty($nome) && is_numeric($nota1) && is_numeric($nota2)) {
-
-            $media = ($nota1 + $nota2) / 2;
-            echo "Seu nome é {$nome}<br>";
-            echo "Sua primeira nota foi {$nota1}<br>";
-            echo "Sua segunda nota foi {$nota2}<br>";
-            echo "Sua média foi {$media}<br>";
             
+            $media = media($nota1, $nota2);
+
+            if ($media !== null) {
+                echo "Seu nome é {$nome}<br>";
+                echo "Sua primeira nota foi {$nota1}<br>";
+                echo "Sua segunda nota foi {$nota2}<br>";
+                echo "Sua média foi {$media}</p>";
+            } 
         } else {
-            echo "Preencha corretamente.<br>";
+            echo "Preencha todos os campos";
         }
     }
-?>
+    ?>
 <style>
     
 body {
