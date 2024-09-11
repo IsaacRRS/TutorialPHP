@@ -2,9 +2,9 @@
 
 Notei alguns colegas com dificuldades para entender o professor então resolvi explicar 
 
-## 📝 Requerimentos
+## 📝 Requerimentos (caso queira rodar as aplicações na sua máquina)
 
-XAMPP :), não terá slides demonstrando como instalar, boa sorte
+XAMPP :), não terá slides demonstrando como instalarkkkkkkk
 
 ## 🧑‍🏫 Explicação
 
